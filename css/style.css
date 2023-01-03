@@ -5,7 +5,42 @@ body {
     background-attachment: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-music-img {
+
+.clear {
+    clear: both;
+}
+
+.player-bx {
+    width: 100%;
+    max-width: 270px;
+    margin: 5% auto;
+    padding: 0 15px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(194,211,238);
+    background: linear-gradient(0deg, rgb(220, 234, 248, 0.674) 0%, rgb(171, 179, 192, 0.694) 100%);
+    overflow: hidden;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 10px 5px #3163a1;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+    .player-bx:hover {
+        background: rgb(194,211,238);
+        background: linear-gradient(0deg, rgba(220, 234, 248, 0.792) 0%, rgba(171, 179, 192, 0.796) 100%);
+    }
+
+h1 {
+    font-size: 17px;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    text-shadow: 1px 1px 5px #383737;
+}
+
+.music-img {
     width: 85%;
     border-radius: 6px;
     -webkit-transition-duration: 0.2s;
@@ -18,3 +53,84 @@ music-img {
     }
 
 h2 {
+    text-shadow: 1px 1px 5px #383737;
+    color: #fff;
+    font-size: 17px;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.writter {
+    text-shadow: 1px 1px 9px #787777;
+    font-size: smaller;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    color: #666;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+    .writter:hover {
+        color: #2e2e2e;
+        cursor: pointer;
+    }
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.time-bx {
+}
+
+.range-bx {
+    padding: 5px 0 0;
+}
+
+    .range-bx input {
+        width: 100%;
+    }
+
+.col {
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+}
+
+.Buttoms {
+    width: 100%;
+    padding: 10px 0 0;
+    text-align: center;
+    margin: 0;
+}
+
+    .Buttoms li {
+        list-style: none;
+        display: inline;
+        margin: 0 13px;
+    }
+
+        .Buttoms li button {
+            cursor: pointer;
+        }
+
+.play, .back, .for {
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+    .back:hover, .for:hover, .play:hover {
+        border-color: #bebebe;
+    }
