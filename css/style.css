@@ -50,6 +50,7 @@ h1 {
 
     .music-img:hover {
         box-shadow: 0px 0px 9px 1px #444;
+<<<<<<< HEAD
     }
 
 h2 {
@@ -134,3 +135,6 @@ h2 {
     .back:hover, .for:hover, .play:hover {
         border-color: #bebebe;
     }
+=======
+    }
+>>>>>>> playback
