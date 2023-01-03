@@ -5,3 +5,16 @@ body {
     background-attachment: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+music-img {
+    width: 85%;
+    border-radius: 6px;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+    .music-img:hover {
+        box-shadow: 0px 0px 9px 1px #444;
+    }
+
+h2 {
